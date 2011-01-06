@@ -1,0 +1,46 @@
+# misc
+	publickey
+## get peter stuff
+
+    	scp -r peter@192.168.0.19:~/share .
+
+#git
+
+## config
+	or change ~/.gitconfig
+	git commit -a -m "short msg"
+    	git config --global user.name "bill"
+    # change ~/.gitconfig
+
+
+## install
+
+    	sudo apt-get install git-core tig gitk
+
+## basic operation
+
+   	mkdir my-repo
+    	cd my-repo
+    	git init
+    	vim README
+    	git add README
+    	git commit -a -m "my msg"
+    	tig
+
+# Bash
+
+   	ls
+    	mkdir dirname
+    	cp -r dir/ anotherdir/
+    	ls -l filename
+    	diff -u a-hello.c b-hello.c 
+
+# vim
+
+## install 
+
+    	sudo apt-get install vim
+
+## tutorial
+
+    	$vimtutor
